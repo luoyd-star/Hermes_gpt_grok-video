@@ -1,0 +1,19 @@
+{
+  "series": "Top10",
+  "asset_type": "series_intro",
+  "style": "premium tech / market / AI ranking intro",
+  "generation": {
+    "provider": "xai",
+    "model": "grok-imagine-video",
+    "modality": "text-to-video",
+    "aspect_ratio": "9:16",
+    "resolution": "720p",
+    "duration_seconds": 6,
+    "prompt": "A premium vertical intro background for a Top 10 short-video series, dark cinematic black background, cyan and gold, no text, no logos."
+  },
+  "qa": [
+    "ffprobe",
+    "first-3s volumedetect",
+    "contact sheet"
+  ]
+}

@@ -1,0 +1,7 @@
+out/
+*.mp4
+*.mov
+*.wav
+*.mp3
+.env
+.DS_Store
