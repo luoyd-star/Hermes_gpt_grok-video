@@ -1,0 +1,44 @@
+{
+  "title": "Explorer enters a forager tribe camp — 30s chained Grok demo",
+  "method": "3 x 10s generation; segment tail frame becomes next segment start image",
+  "segments": [
+    {
+      "index": 1,
+      "prompt": "A realistic cinematic documentary scene: a modern explorer in simple earth-toned travel clothes quietly emerges from dense forest into a prehistoric forager tribe camp at sunrise. Adults weave baskets, children gather kindling, smoke rises from a small fire, no magic, no fantasy, no text, no logos, natural handheld camera, warm morning light.",
+      "request_id": "be9ef502-e7ac-910e-b2b0-d1197cc68799",
+      "video_url": "https://vidgen.x.ai/xai-vidgen-bucket/xai-video-8284c37d-8c0b-4ea6-8a9d-589fd57bfbaa.mp4",
+      "local_path": "/Users/bull/Documents/grok-demos/explorer-forager-30s/raw/segment_01.mp4",
+      "tail_frame": "/Users/bull/Documents/grok-demos/explorer-forager-30s/frames/segment_01_tail.jpg",
+      "used_image_to_video": false,
+      "aspect_ratio": "16:9",
+      "duration": 10,
+      "resolution": "720p"
+    },
+    {
+      "index": 2,
+      "prompt": "Continue from the exact previous frame. The explorer stays at the edge of the camp, respectfully observing. Forager tribe members collect berries and edible roots near woven baskets, a calm daily-life moment, natural gestures, realistic anthropology documentary style, smooth camera drift, no text, no logos, no modern buildings.",
+      "request_id": "9d3e1ac5-c07a-9ff9-a495-648d689d1634",
+      "video_url": "https://vidgen.x.ai/xai-vidgen-bucket/xai-video-fa1835c3-2439-42c5-9bcd-766e821e518c.mp4",
+      "local_path": "/Users/bull/Documents/grok-demos/explorer-forager-30s/raw/segment_02.mp4",
+      "tail_frame": "/Users/bull/Documents/grok-demos/explorer-forager-30s/frames/segment_02_tail.jpg",
+      "used_image_to_video": true,
+      "aspect_ratio": "16:9",
+      "duration": 10,
+      "resolution": "720p"
+    },
+    {
+      "index": 3,
+      "prompt": "Continue from the exact previous frame. Late morning in the same forager camp: people sort gathered plants, repair a basket, shape a stone tool near the fire, the explorer watches quietly without interfering, peaceful everyday life, realistic documentary cinematography, no text, no logos, no fantasy effects.",
+      "request_id": "634b055d-2837-924b-acec-d3fa2ffc74ba",
+      "video_url": "https://vidgen.x.ai/xai-vidgen-bucket/xai-video-5ac3cb75-86f6-4cb9-a4e0-5b7726167ee1.mp4",
+      "local_path": "/Users/bull/Documents/grok-demos/explorer-forager-30s/raw/segment_03.mp4",
+      "tail_frame": "/Users/bull/Documents/grok-demos/explorer-forager-30s/frames/segment_03_tail.jpg",
+      "used_image_to_video": true,
+      "aspect_ratio": "16:9",
+      "duration": 10,
+      "resolution": "720p"
+    }
+  ],
+  "final_video": "/Users/bull/Documents/grok-demos/explorer-forager-30s/renders/explorer_forager_30s_demo.mp4",
+  "created_at_unix": 1779203725
+}

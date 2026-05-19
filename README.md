@@ -1,5 +1,7 @@
 # Hermes + GPT-5.5 + Grok Imagine workflow
 
+中文说明见：[README.zh-CN.md](README.zh-CN.md)
+
 A practical workflow for using Hermes Agent with a strong driver model (for example GPT-5.5 / Codex route) while delegating image and video generation to xAI Grok Imagine.
 
 The key idea: the chat/agent model and the media-generation backend are separate.
@@ -113,6 +115,21 @@ ffmpeg -y -i renders/final.mp4 \
   -vf "select='eq(n,0)+eq(n,24)+eq(n,48)+eq(n,72)+eq(n,108)+eq(n,140)',scale=360:640,tile=3x2" \
   -frames:v 1 review/contact_sheet.jpg
 ```
+
+## 30-second chained demo
+
+See [`examples/explorer-forager-30s`](examples/explorer-forager-30s) for a generated demo: a modern explorer enters a prehistoric forager tribe camp and observes daily life.
+
+The demo is built as 3 x 10s Grok Imagine Video generations:
+
+1. Segment 1: text-to-video.
+2. Extract the final frame.
+3. Segment 2: image-to-video, using segment 1's final frame as the starting image.
+4. Extract the final frame.
+5. Segment 3: image-to-video, using segment 2's final frame as the starting image.
+6. Concatenate the three MP4 files with ffmpeg.
+
+This is the key pattern for working around single-generation duration limits while keeping visual continuity.
 
 ## Example: Top 10 intro workflow
 
